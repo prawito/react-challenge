@@ -8,6 +8,7 @@ const TaskList = ({ tasks, onCheckboxChange, deleteTask }) => {
           <li key={task.id}>
             <input
               type="checkbox"
+              data-testid={`${task.id}-checkbox`}
               data-id={task.id}
               checked={task.completed}
               onChange={onCheckboxChange}

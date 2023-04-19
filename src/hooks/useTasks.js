@@ -3,7 +3,7 @@ import { useState, useCallback } from 'react'
 import apiCall from '../api'
 
 // Sort tasks so completed tasks are at the bottom
-const sortTasks = (tasks) => {
+export const sortTasks = (tasks) => {
   return tasks.sort((a, b) => {
     if (a.completed === b.completed) {
       return 0

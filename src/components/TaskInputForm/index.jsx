@@ -8,9 +8,13 @@ const TaskInputForm = ({ task, setTask, addTask }) => {
   }
   return (
     <div className="input-container">
-      <form onSubmit={handleAddTask}>
+      <form onSubmit={handleAddTask} aria-label="Task form">
+        <label htmlFor="task-input" className="visually-hidden">
+          Task name
+        </label>
         <input
           type="text"
+          id="task-input"
           placeholder="Task name"
           value={task}
           onChange={(e) => setTask(e.target.value)}
