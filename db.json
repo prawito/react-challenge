@@ -2,15 +2,38 @@
   "tasks": [
     {
       "id": 1,
-      "title": "Finish an interview"
+      "title": "Finish an interview",
+      "completed": false
     },
     {
       "id": 2,
-      "title": "Study React"
+      "title": "Study React",
+      "completed": false
     },
     {
       "id": 3,
-      "title": "Submit a test result"
+      "title": "Submit a test result",
+      "completed": false
+    },
+    {
+      "title": "Sample task by Prawito",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "Add Unit Test",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "Update UI",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "Final test all flow",
+      "completed": false,
+      "id": 7
     }
   ]
 }
