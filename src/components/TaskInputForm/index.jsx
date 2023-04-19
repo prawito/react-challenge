@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import './index.css'
 
 const TaskInputForm = ({ task, setTask, addTask }) => {
   const handleAddTask = (event) => {
@@ -7,7 +8,7 @@ const TaskInputForm = ({ task, setTask, addTask }) => {
     addTask()
   }
   return (
-    <div className="input-container">
+    <div className="task-input-container">
       <form onSubmit={handleAddTask} aria-label="Task form">
         <label htmlFor="task-input" className="visually-hidden">
           Task name

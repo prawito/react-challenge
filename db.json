@@ -22,17 +22,17 @@
     },
     {
       "title": "Add Unit Test",
-      "completed": false,
+      "completed": true,
       "id": 5
     },
     {
       "title": "Update UI",
-      "completed": false,
+      "completed": true,
       "id": 6
     },
     {
       "title": "Final test all flow",
-      "completed": false,
+      "completed": true,
       "id": 7
     }
   ]
