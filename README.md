@@ -1,5 +1,16 @@
 # XYZ GOAT React.js Code Challenge
 
+## Testing Result by Prawito Hudoro
+
+**App Screen**
+![App Screen](app-screen.png)
+
+**Testing Coverage**
+![Testing Coverage](testing-coverage.png)
+
+**Demo**
+![Demo](demo.mov)
+
 **TODO List React** is a code challenge for frontend developer.
 
 ![TODO List App](https://user-images.githubusercontent.com/2387508/141241010-f29cb52e-adcf-4ac3-a220-ad59f7661d54.png)
